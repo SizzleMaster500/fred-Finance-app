@@ -1,0 +1,1 @@
+import React from 'react';export default function Fred({winter=false,mood='wave',size=145}){return <img className={'fred fred-'+mood} style={{width:size,maxWidth:'100%'}} src={`${import.meta.env.BASE_URL}assets/${winter?'fred-winter':'fred-classic'}.png`} alt={`Fred, your friendly purple money guide${winter?' wearing a winter beanie':''}`}/>}

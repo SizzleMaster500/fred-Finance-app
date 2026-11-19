@@ -1,0 +1,3 @@
+import React from 'react';import * as L from 'lucide-react';
+const icons={home:L.House,budget:L.ChartNoAxesCombined,learn:L.BookOpen,bills:L.Receipt,rewards:L.Trophy,add:L.Plus,star:L.Star,wallet:L.Wallet,receipt:L.Receipt,sprout:L.Sprout,'credit-card':L.CreditCard,'trending-up':L.TrendingUp,'book-open':L.BookOpen,'graduation-cap':L.GraduationCap,trophy:L.Trophy,check:L.Check,lock:L.Lock,calendar:L.CalendarDays,settings:L.Settings,arrow:L.ArrowRight,back:L.ArrowLeft,coins:L.Coins,shield:L.ShieldCheck};
+export default function Icon({name,size=20,...props}){const C=icons[name]||L.Sparkles;return <C size={size} strokeWidth={2.4} {...props}/>}
