@@ -59,3 +59,9 @@ npm run dev
 npm test
 npm run build
 ```
+
+### v0.3.1 mobile layout and Fred animation
+- Prevents horizontal overflow; onboarding uses available dynamic viewport height and compact spacing.
+- Replaces the moving static mascot image with an **articulated 2D SVG prototype**: independent arm waves, leg walking cycle, blink and celebration motions. This is not yet a rigged 3D Fred; exact 3D fidelity requires a separately produced rig.
+- Includes the corrected YAML indentation for GitHub Pages workflow.
+- On very small screens, large system fonts, or when the keyboard is open, onboarding may scroll internally for accessibility.
